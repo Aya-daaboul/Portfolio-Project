@@ -1,0 +1,86 @@
+body{
+    background-image: url(../images/certs.jpg);
+    image-rendering: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Fredoka';
+    
+}
+.fredoka-custom {
+    color:white;
+    font-family: 'Fredoka', serif;
+    font-optical-sizing: auto;
+    font-weight: 600; 
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+header{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    padding:10px;
+    align-items:flex-start;
+}
+.icon_c{
+    display:inline-flex;
+    width:100px;
+    height:100px;
+    margin-left:0px;
+
+
+}
+.huge{
+    font-size: 4em;
+    margin-right:auto;
+}
+.container{
+   
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content:space-evenly;
+    row-gap:25px; 
+    flex-shrink:1;
+
+
+}
+
+.boxes{
+    display:inline-flex;
+    width:350px;
+    height:320px;
+    border-bottom:1px solid rgb(0,22,5);
+    background-color:white;
+    flex-direction: column;
+    align-items: center;
+    min-width:300px;
+    min-height:auto;
+    
+
+}
+.cert_image {
+    width: 100%; 
+    height: 230px; 
+    object-fit: fill;
+}
+.credential{
+    
+    display: inline-block; 
+    text-align: center; 
+    margin-top:20px;
+    cursor: pointer;
+
+}
+@media  screen and (max-width:500px) {
+    header{
+        display:inline-flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+    }
+    .huge{
+        font-size:2em;
+
+    }
+}
