@@ -52,7 +52,7 @@ body{
     margin:auto; 
     margin-top:5%;
     min-width:fit-content;
-    margin-bottom:10%;
+    margin-bottom:15%;
 }
 .button {
     text-decoration: none;
@@ -76,8 +76,10 @@ body{
 }
 footer{
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:flex-start;
+    margin-right:auto;
+    padding:5px;
 }
 @media screen and (max-width: 768px) {
     .h{
