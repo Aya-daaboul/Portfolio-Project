@@ -42,6 +42,7 @@ header{
     min-width: 200px;
     min-height: 200px;
     border:2px double #6751E1;
+    padding:20px;
 }
 
 @media screen and (max-width:870px) {
