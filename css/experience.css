@@ -67,7 +67,6 @@ header{
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    width:170px;
     overflow: hidden;
     margin-bottom:15px;
     object-fit: contain;
@@ -78,7 +77,6 @@ header{
 p::first-line {
     font-weight: bold;         
     color: #6751E1;          
-    text-decoration:double;
     font-size: 1.4em;
       
 }
